@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#f7f9fc" />
+  <meta name="description" content="Интересные каналы о Москве и Санкт-Петербурге" />
+  <title>Гид по городам — каналы о Москве и Петербурге</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="page">
+    <header class="hero" id="top">
+      <nav class="topbar" aria-label="Главная навигация">
+        <a class="brand" href="#top" aria-label="Гид по городам">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 64 44"><path d="M6 37h52M12 37V25l9-5 7-12 7 10 7-4 10 11v12M19 37V28m14 9V21m9 16V28" fill="none" stroke="currentColor" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <span>ГИД ПО ГОРОДАМ</span>
+        </a>
+
+        <button class="menu-button" id="menuButton" aria-label="Открыть меню" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+
+        <div class="mobile-menu" id="mobileMenu">
+          <a href="#moscow">Москва</a>
+          <a href="#spb">Петербург</a>
+        </div>
+      </nav>
+
+      <div class="hero-content">
+        <div class="hero-copy">
+          <h1>Интересные каналы<br>о Москве и Петербурге</h1>
+          <p>Новости, места, история, события<br>и атмосфера любимых городов</p>
+        </div>
+
+        <div class="hero-art" aria-hidden="true">
+          <img class="hero-art__moscow" src="images/h1.jpg" alt="">
+          <img class="hero-art__spb" src="images/h3.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="city-switcher">
+        <a class="city-choice city-choice--moscow" href="#moscow">
+          <span class="choice-icon">♜</span><span>МОСКВА</span><b>→</b>
+        </a>
+        <a class="city-choice city-choice--spb" href="#spb">
+          <span class="choice-icon">♧</span><span>ПЕТЕРБУРГ</span><b>→</b>
+        </a>
+      </div>
+    </header>
+
+    <section class="city-section city-section--moscow" id="moscow">
+      <div class="city-cover city-cover--moscow">
+        <div class="cover-copy">
+          <span class="location-pill">⌖ МОСКВА</span>
+          <h2>Москва</h2>
+          <p>Всё самое интересное<br>о жизни столицы</p>
+        </div>
+        <img
+         class="city-cover-image"
+          src="images/h2.jpg"
+         alt="Москва"
+        >
+      </div>
+
+      <div class="channels-card" data-city="moscow">
+        <a class="channel" href="https://max.ru/twich_max" data-channel="Москва. Интересное">
+          <img 
+            class="avatar" 
+            src="images/M1.webp" 
+            alt="Москва1"
+          >
+          <div class="channel-text"><h3>Москва. Интересное</h3><p>Необычные места, факты, история и секреты столицы.</p></div>
+          <span class="channel-cta">Перейти в MAX <b>→</b></span>
+        </a>
+        <a class="channel" href="https://max.ru/criptonus" data-channel="Москва сегодня">
+          <img 
+            class="avatar" 
+            src="images/M2.webp" 
+            alt="Москва2"
+          >
+          <div class="channel-text"><h3>Москва сегодня</h3><p>Главные новости, события и важные изменения в городе.</p></div>
+          <span class="channel-cta">Перейти в MAX <b>→</b></span>
+        </a>
+        <a class="channel" href="https://max.ru/club7157" data-channel="Куда сходить в Москве">
+          <img 
+            class="avatar" 
+            src="images/M3.webp" 
+            alt="Москва3"
+          >
+          <div class="channel-text"><h3>Куда сходить в Москве</h3><p>Лучшие места, рестораны, афиша и идеи для отдыха.</p></div>
+          <span class="channel-cta">Перейти в MAX <b>→</b></span>
+        </a>
+      </div>
+      <button class="show-more" data-target="moscow">Смотреть все каналы о Москве <span>⌄</span></button>
+    </section>
+
+    <section class="city-section city-section--spb" id="spb">
+      <div class="city-cover city-cover--spb">
+        <div class="cover-copy">
+          <span class="location-pill location-pill--blue">⌖ САНКТ-ПЕТЕРБУРГ</span>
+          <h2>Санкт-Петербург</h2>
+          <p>Атмосфера, история<br>и жизнь города на Неве</p>
+        </div>
+        <img
+          class="city-cover-image"
+          src="images/h3.jpg"
+          alt="Санкт-Петербург"
+        >
+      </div>
+
+      <div class="channels-card" data-city="spb">
+        <a class="channel" href="https://max.ru/club7494" data-channel="Интересный Петербург">
+          <img 
+            class="avatar" 
+            src="images/SPB1.webp" 
+            alt="Питер1"
+          >
+          <div class="channel-text"><h3>Интересный Петербург</h3><p>Факты, истории, легенды и любопытные места.</p></div>
+          <span class="channel-cta channel-cta--blue">Перейти в MAX <b>→</b></span>
+        </a>
+        <a class="channel" href="https://max.ru/club7492" data-channel="Петербург сегодня">
+          <img 
+            class="avatar" 
+            src="images/SPB2.webp" 
+            alt="Питер2"
+          >
+          <div class="channel-text"><h3>Петербург сегодня</h3><p>Новости, события и всё важное, что происходит в городе.</p></div>
+          <span class="channel-cta channel-cta--blue">Перейти в MAX <b>→</b></span>
+        </a>
+        <a class="channel" href="https://max.ru/channel_sankt_peterburg2030" data-channel="Куда сходить в Петербурге">
+          <img 
+            class="avatar" 
+            src="images/SPB3.webp" 
+            alt="Питер3"
+          >
+          <div class="channel-text"><h3>Куда сходить в Петербурге</h3><p>Лучшие маршруты, музеи, рестораны и развлечения.</p></div>
+          <span class="channel-cta channel-cta--blue">Перейти в MAX <b>→</b></span>
+        </a>
+      </div>
+      <button class="show-more show-more--blue" data-target="spb">Смотреть все каналы о Петербурге <span>⌄</span></button>
+    </section>
+
+    <section class="final-card">
+      <div class="heart">♡</div>
+      <div>
+        <h2>Выбирайте то, что вам интересно</h2>
+        <p>Подписывайтесь и будьте в курсе жизни любимых городов!</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> Гид по городам</span>
+    <a href="#top">Наверх ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
